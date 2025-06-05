@@ -8,7 +8,7 @@ nombre=input("ingrese su nombre= ")
 print(f"hola {nombre}")
 """
 #Ejercicio 3
-""""
+"""
 nombre=input("ingrese su nombre= ")
 apellido=input("ingrese su apellido= ")
 edad=input("ingrese su edad= ")
