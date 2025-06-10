@@ -74,7 +74,7 @@ def main():
 
         elif opcion == "4":
             if not lista:
-                print("Primero generá una lista.")
+                print("Primero generá una lista random.")
                 continue
             lista.sort()
             objetivo = int(input("Número a buscar: "))
