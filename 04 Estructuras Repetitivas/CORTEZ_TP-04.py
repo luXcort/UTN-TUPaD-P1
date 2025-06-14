@@ -125,7 +125,7 @@ print(f"la media de los {num} ingresados es {media}")
 """  
 
  #Ejercicio10
- """  
+"""  
 num=int(input("ingrese un numero"))
 inv = 0
 es_negativo = False
