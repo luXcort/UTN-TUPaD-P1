@@ -73,7 +73,7 @@ for x in range(100,0,-2):
 """
 
 #ejercicio7
-
+"""
 num=int(input("ingrese un numero positivo = "))
 sumatotal=0
 for x in range(1,num):
@@ -81,3 +81,62 @@ for x in range(1,num):
     sumatotal=sumatotal+x
     
 print("la suma total es= ",sumatotal)
+"""
+
+#Ejercicio8
+"""
+cant=int(input("ingrese cuantos numeros quiero analizar "))
+pos=0
+par=0
+impar=0
+neg=0
+for x in range(cant):
+    num=int(input("ingrese un numero"))
+    if num<0:
+        neg+=1
+        if num %2==0:
+            par+=1
+        else:
+            impar+=1
+    elif num>0:
+        pos+=1
+        if num %2==0:
+            par+=1
+        else:
+            impar+=1
+    else:
+        print("el numero cero no cuenta")
+print(f"la cantidad de numeros par es {par}, la cantidad de numeros impar es {impar}")
+print(f"la cantidad de numeros positivos es {pos}, la cantidad de numeros negativos es {neg}")
+
+"""  
+ 
+ #Ejercicio9
+
+"""  
+cant=int(input("ingrese cuantos numeros quiero analizar "))
+suma=0
+for x in range(cant):
+    num=int(input("ingrese un numero"))
+    suma=suma+num
+media=suma/cant
+print(f"la media de los {num} ingresados es {media}")
+
+"""  
+
+ #Ejercicio10
+ """  
+num=int(input("ingrese un numero"))
+inv = 0
+es_negativo = False
+if num < 0:
+    es_negativo = True
+    numero = abs(num) 
+while num !=0:
+    digito=num%10
+    inv= inv*10+digito
+    num=num//10
+if es_negativo:
+    inv *= -1
+print("El número invertido es:", inv)
+"""  
