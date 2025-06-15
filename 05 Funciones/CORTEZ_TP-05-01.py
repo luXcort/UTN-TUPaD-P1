@@ -95,7 +95,7 @@ print(doble)
 
 #Ejercicio9
 
-
+"""
 
 compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
 
@@ -108,14 +108,14 @@ compras[1][1]="tallarines"
 print(compras)
 
 #c) Eliminar "pan" de la lista del primer cliente.
-compras[0].remove("arroz")
+compras[0].remove("pan")
 #tambien se puede eliminar de la siguiente forma usando directamente los indices
 #del compras[0][0]
 
 #d) Imprimir la lista resultante por pantalla
 print(compras)
 
-
+"""
 #Ejercicio9
 
 """
